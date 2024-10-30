@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Systems Assignment-2 | dg662</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Web Systems Assignment-2 | dg662</h1>
+    </header>
+
+    <main>
+        <section id="reverse-string" class="card">
+            <h2>Reverse a String</h2>
+            <input type="text" id="stringInput" placeholder="Enter a string">
+            <button onclick="reverseString()">Reverse</button>
+            <p id="reverseResult"></p>
+        </section>
+
+        <section id="palindrome-check" class="card">
+            <h2>Palindrome Checker</h2>
+            <input type="text" id="numberInput" placeholder="Enter a series of numbers">
+            <button onclick="checkPalindrome()">Check Palindrome</button>
+            <p id="palindromeResult"></p>
+        </section>
+
+        <section id="tip-calculator" class="card">
+            <h2>Tip Calculator</h2>
+            <input type="number" id="subtotalInput" placeholder="Enter subtotal" step="0.01">
+            <input type="number" id="tipPercentageInput" placeholder="Enter tip percentage" step="1">
+            <button onclick="calculateTotal()">Calculate Total</button>
+            <p id="totalResult"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created for Web Systems Development assignment by Deepak Prabhu Nikhil Ganireddy (dg662)</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
